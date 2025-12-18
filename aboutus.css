@@ -1,0 +1,41 @@
+body {
+  margin-left: 190px;
+}
+
+img {
+  width: 1200px;
+  height: 700px;
+}
+.container {
+  border: 1px solid black;
+  width: 600px;
+  background-color: white;
+  margin-left: 295px;
+  position: absolute;
+  top: 510px;
+  text-align: center;
+  padding: 15px;
+}
+.container h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    width: 750px;
+    margin: 0;
+  }
+
+  img {
+    width: 700px;
+    height: 700px;
+  }
+
+  .container {
+    margin: 0;
+    position: absolute;
+    left : 60px;
+    top: 290px;
+  }
+}

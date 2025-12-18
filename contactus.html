@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>
+      To be interested in cooperation forms, questions about products and our
+      work in general, please do not hesitate to contact us.
+    </p>
+    <p>Hours: Monday - Saturday 08:00 - 20:00</p>
+
+    <form id="contactForm" class="contact-form">
+      <div class="form-row">
+        <input type="text" name="firstName" placeholder="First Name*" required>
+        <input type="text" name="lastName" placeholder="Last Name*" required>
+      </div>
+      <div class="form-row">
+        <input type="email" name="email" placeholder="Email*" required>
+      </div>
+      <div class="form-row">
+        <input type="tel" name="phone" placeholder="Your Phone*" required>
+      </div>
+      <div class="form-row">
+        <textarea name="message" placeholder="Your Message*" required></textarea>
+      </div>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="contactus.js"></script>
+</body>
+</html>
+

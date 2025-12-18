@@ -1,0 +1,65 @@
+form {
+  width: 120px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 90px;
+  padding-right: 300px;
+  margin-left: 500px;
+  margin-top: 75px;
+  border: 1px solid;
+  border-radius: 50px;
+  background-color: rgb(238, 215, 219);
+}
+
+.container tr {
+  padding: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+
+}
+.product-image {
+width: 40px;
+}
+.remove-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.remove-btn:hover {
+  background: darkred;
+}
+
+.total-price {
+  padding-top: 35px;
+  padding-left: 55px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 500px;
+  }
+  form {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    width: 432px;
+  }
+
+  form {
+    width: 300px;
+  }
+}

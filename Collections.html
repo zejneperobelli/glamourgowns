@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collections</title>
+    <link rel="stylesheet" href="collections.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+      <table class="collections-table">
+        <thead>
+          <tr>
+            <h1 class="my-4">Collection</h1>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="product-details" data-id="1" data-price="59.99">
+              <img
+                src="photo/04.png"
+                alt="Fustani 2"
+                class="product-image"
+              />
+              <label for="size-1">Size:</label>
+              <select id="size-1" class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <div class="quantity-controls">
+
+                <input
+                type="number" id="quantity-1" value="1"  class="quantity-input" min="1"/>
+                
+              </div>
+                  <p>Price: $59.99</p>
+
+              <button class="btn1" onclick="addToCart(1)">Add to cart</button>
+            </td>
+            <td class="product-details" data-id="2" data-price="59.99">
+              <img src="photo/04.png" alt="Fustani 2" class="product-image" />
+
+              <label for="size-2">Size:</label>
+              <select id="size-2" class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <div class="quantity-controls">
+              
+                <input
+                  type="number"
+                  id="quantity-2"
+                  value="1"
+                  class="quantity-input"
+                  min="1"
+                />
+              </div>
+
+              <p>Price: $59.99</p>
+
+              <button class="btn1" onclick="addToCart(2)">Add to cart</button>
+            </td>
+            <td class="product-details" data-id="3" data-price="59.99">
+              <img src="photo/04.png" alt="Fustani 3" class="product-image" />
+
+              <label for="size-3">Size:</label>
+              <select id="size-3" class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <div class="quantity-controls">
+                <input
+                  type="number"
+                  id="quantity-21"
+                  value="1"
+                  class="quantity-input"
+                  min="1"
+                />
+              </div>
+
+              <p>Price: $59.99</p>
+
+              <button class="btn1" onclick="addToCart(3)">Add to cart</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="product-details" data-id="4" data-price="59.99">
+              <img src="photo/04.png" alt="Fustani 4" class="product-image" />
+
+              <label for="size-4">Size:</label>
+              <select id="size-4" class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <div class="quantity-controls">
+                <input
+                  type="number"
+                  id="quantity-22"
+                  value="1"
+                  class="quantity-input"
+                  min="1"
+                />
+              </div>
+
+              <p>Price: $59.99</p>
+
+              <button class="btn1" onclick="addToCart(4)">Add to cart</button>
+            </td>
+            <td class="product-details" data-id="5" data-price="59.99">
+              <img src="photo/04.png" alt="Fustani 2" class="product-image" />
+
+              <label for="size-5">Size:</label>
+              <select id="size-5" class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <div class="quantity-controls">
+                <input
+                  type="number"
+                  id="quantity-23"
+                  value="1"
+                  class="quantity-input"
+                  min="1"
+                />
+              </div>
+
+              <p>Price: $59.99</p>
+
+              <button class="btn1" onclick="addToCart(5)">Add to cart</button>
+            </td>
+            <td class="product-details" data-id="6" data-price="59.99">
+              <img src="photo/04.png" alt="Fustani 6" class="product-image" />
+
+              <label for="size-6">Size:</label>
+              <select id="size-6" class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+
+              <div class="quantity-controls">
+              
+                <input
+                  type="number"
+                  id="quantity-24"
+                  value="1"
+                  class="quantity-input"
+                  min="1"
+                />
+              </div>
+
+              <p>Price: $59.99</p>
+
+              <button class="btn1" onclick="addToCart(6)">Add to cart</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="product-details" data-id="7" data-price="59.99">
+              <img src="photo/04.png" alt="Fustani 7" class="product-image" />
+
+              <label for="size-2">Size:</label>
+              <select id="size-2" class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <div class="quantity-controls">
+                <input
+                  type="number"
+                  id="quantity-25"
+                  value="1"
+                  class="quantity-input"
+                  min="1"
+                />
+              </div>
+
+              <p>Price: $59.99</p>
+
+              <button class="btn1" onclick="addToCart(7)">Add to cart</button>
+            </td>
+            <td class="product-details" data-id="8" data-price="59.99">
+              <img
+                src="photo/04.png"
+                data-id="8"
+                alt="Fustani 8"
+                class="product-image"
+              />
+
+              <label for="size-8">Size:</label>
+              <select id="size-8" class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <div class="quantity-controls">
+                <input
+                  type="number"
+                  id="quantity-26"
+                  value="1"
+                  class="quantity-input"
+                  min="1"
+                />
+              </div>
+
+              <p>Price: $59.99</p>
+
+              <button class="btn1" onclick="addToCart(8)">Add to cart</button>
+            </td>
+            <td class="product-details" data-id="9" data-price="59.99">
+              <img
+                src="./photo/04.png"
+                data-id="9"
+                alt="Fustani 9"
+                class="product-image"
+              />
+
+              <label for="size-9">Size:</label>
+              <select id="size-9" class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <div class="quantity-controls">
+                <input
+                  type="number"
+                  id="quantity-27"
+                  value="1"
+                  class="quantity-input"
+                  min="1"
+                />
+              </div>
+
+              <p>Price: $59.99</p>
+
+              <button class="btn1" onclick="addToCart(9)">Add to cart</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <a href="index.html" class="back-home">← Back to Home</a>
+    <button class="btn">
+      <a href="Addtocart.html"
+        ><i class="fa-solid fa-cart-shopping fa-2xl" style="color: #f986c9"></i
+      ></a>
+    </button>
+    <script src="java.js"></script>
+  </body>
+</html>

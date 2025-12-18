@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sale</title>
+  <link rel="stylesheet" href="Sale.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="my-4">Glamour Gowns - Sale Products</h1>
+
+    <h2 class="my-4">-50% Off</h2>
+    <div class="products-wrapper">
+      <div class="product-details" data-id="61" data-price="49.99">
+        <img src="photo/08.png" alt="White Dress" class="product-image">
+        <br>
+        <label for="size-1">Size</label>
+        <select id="size-1" class="size-select"><option>S</option></select>
+        <p class="price-old">$99.99</p>
+        <p class="price-new">$49.99</p>
+        <button class="btn1" onclick="addToCart(61)">Add to cart</button>
+      </div>
+      <div class="product-details" data-id="62" data-price="59.99">
+        <img src="photo/08.png" alt="Black Dress" class="product-image">
+       <br>
+        <label for="size-2">Size</label>
+        <select id="size-2" class="size-select"><option>L</option></select>
+        <p class="price-old">$119.99</p>
+        <p class="price-new">$59.99</p>
+        <button class="btn1" onclick="addToCart(62)">Add to cart</button>
+      </div>
+      <div class="product-details" data-id="63" data-price="39.99">
+        <img src="photo/08.png" alt="Blue Dress" class="product-image">
+        <br>
+        <label for="size-3">Size</label>
+        <select id="size-3" class="size-select"><option>L</option></select>
+        <p class="price-old">$79.99</p>
+        <p class="price-new">$39.99</p>
+        <button class="btn1" onclick="addToCart(63)">Add to cart</button>
+      </div>
+    </div>
+
+    
+    <h2 class="my-4">-60% Off</h2>
+    <div class="products-wrapper">
+      <div class="product-details" data-id="64" data-price="60.00">
+        <img src="photo/08.png" alt="Green Dress" class="product-image">
+        <br>
+        <label for="size-4">Size</label>
+        <select id="size-4" class="size-select"><option>M</option></select>
+        <p class="price-old">$150.00</p>
+        <p class="price-new">$60.00</p>
+        <button class="btn1" onclick="addToCart(64)">Add to cart</button>
+      </div>
+      <div class="product-details" data-id="65" data-price="72.00">
+        <img src="photo/08.png" alt="Red Dress" class="product-image">
+        <br>
+        <label for="size-5">Size</label>
+        <select id="size-5" class="size-select"><option>L</option></select>
+        <p class="price-old">$180.00</p>
+        <p class="price-new">$72.00</p>
+        <button class="btn1" onclick="addToCart(65)">Add to cart</button>
+      </div>
+      <div class="product-details" data-id="66" data-price="52.00">
+        <img src="photo/08.png" alt="Yellow Dress" class="product-image">
+        <br>
+        <label for="size-6">Size</label>
+        <select id="size-6" class="size-select"><option>S</option></select>
+        <p class="price-old">$130.00</p>
+        <p class="price-new">$52.00</p>
+        <button class="btn1" onclick="addToCart(66)">Add to cart</button>
+      </div>
+    </div>
+
+    
+    <h2 class="my-4">-70% Off</h2>
+    <div class="products-wrapper">
+      <div class="product-details" data-id="67" data-price="60.00">
+        <img src="photo/08.png" alt="Silver Dress" class="product-image">
+        <br>
+        <label for="size-7">Size</label>
+        <select id="size-7" class="size-select"><option>L</option></select>
+        <p class="price-old">$200.00</p>
+        <p class="price-new">$60.00</p>
+        <button class="btn1" onclick="addToCart(67)">Add to cart</button>
+      </div>
+      <div class="product-details" data-id="68" data-price="75.00">
+        <img src="photo/08.png" alt="Purple Dress" class="product-image">
+        <br>
+        <label for="size-8">Size</label>
+        <select id="size-8" class="size-select"><option>M</option></select>
+        <p class="price-old">$250.00</p>
+        <p class="price-new">$75.00</p>
+        <button class="btn1" onclick="addToCart(68)">Add to cart</button>
+      </div>
+      <div class="product-details" data-id="69" data-price="90.00">
+        <img src="photo/08.png" alt="Orange Dress" class="product-image">
+        <br>
+        <label for="size-9">Size</label>
+        <select id="size-9" class="size-select"><option>S</option></select>
+        <p class="price-old">$300.00</p>
+        <p class="price-new">$90.00</p>
+        <button class="btn1" onclick="addToCart(69)">Add to cart</button>
+      </div>
+    </div>
+  </div>
+
+  <a href="index.html" class="back-home">← Back to Home</a>
+  <button class="btn">
+    <a href="Addtocart.html">
+      <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #f986c9"></i>
+    </a>
+  </button>
+
+  <script src="java.js"></script>
+</body>
+</html>
